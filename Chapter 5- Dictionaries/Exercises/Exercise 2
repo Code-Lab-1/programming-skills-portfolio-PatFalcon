@@ -1,0 +1,22 @@
+glossary = {
+    'string': 'Series of characters.',
+    'comment': 'Notes in a program.',
+    'list': 'Specified order of collective items.',
+    'loop': 'A collection of items, one at a time.',
+    'dictionary': "Pairs of keys with own respective values.",
+    }
+
+word = 'string'
+print(f"\n{word.title()}: {glossary[word]}")
+
+word = 'comment'
+print(f"\n{word.title()}: {glossary[word]}")
+
+word = 'list'
+print(f"\n{word.title()}: {glossary[word]}")
+
+word = 'loop'
+print(f"\n{word.title()}: {glossary[word]}")
+
+word = 'dictionary'
+print(f"\n{word.title()}: {glossary[word]}")
