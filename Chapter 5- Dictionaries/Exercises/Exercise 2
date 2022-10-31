@@ -1,13 +1,10 @@
 glossary = {
-    'string': 'Series of characters.',
     'comment': 'Notes in a program.',
     'list': 'Specified order of collective items.',
     'loop': 'A collection of items, one at a time.',
-    'dictionary': "Pairs of keys with own respective values.",
+    'string': 'Series of characters.',
+    'value': 'Basically proper nouns in coding.',
     }
-
-word = 'string'
-print(f"\n{word.title()}: {glossary[word]}")
 
 word = 'comment'
 print(f"\n{word.title()}: {glossary[word]}")
@@ -18,5 +15,8 @@ print(f"\n{word.title()}: {glossary[word]}")
 word = 'loop'
 print(f"\n{word.title()}: {glossary[word]}")
 
-word = 'dictionary'
+word = 'string'
+print(f"\n{word.title()}: {glossary[word]}")
+
+word = 'value'
 print(f"\n{word.title()}: {glossary[word]}")
