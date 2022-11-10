@@ -1,2 +1,2 @@
-spam = "eggs"
-print(spam*3)
+watdog = "longgadog"
+print(watdog*3)
