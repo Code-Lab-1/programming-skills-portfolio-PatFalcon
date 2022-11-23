@@ -1,11 +1,3 @@
-Guitar_orders = ['FlyingV', 'Thunderbird', 'Stratocaster', 'Jazzmaster']
-finished_Guitar_orders= []
+Guitar = input("What kind of guitar would you like? ")
 
-while Guitar_orders:
-    current_orders = Guitar_orders.pop()
-    print(f"I'm working on your {current_orders} sandwich. Please Wait.")
-    finished_Guitar_orders.append(current_orders)
-
-print("\n")
-for Guitar_orders in finished_Guitar_orders:
-    print(f"I made a {Guitar_orders} sandwich.")
+print(f"I may have an/a {Guitar.title()} in the back..")
