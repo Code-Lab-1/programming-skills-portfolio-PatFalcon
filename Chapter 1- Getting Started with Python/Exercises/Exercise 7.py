@@ -1,0 +1,1 @@
+print('Patrick\'s mother: He\'s not an angel. He\'s a good looking boy!')
